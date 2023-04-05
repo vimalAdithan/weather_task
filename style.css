@@ -1,6 +1,21 @@
 .crd{
     display: inline-block;
 }
+
+.outerbox{
+    margin-top: 5%;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.mainbox img{
+    width: 240px;
+    height: 160px;
+}
 .weathers{
     display: none;
+    margin: 2px 0px;
 }
